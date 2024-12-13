@@ -100,7 +100,6 @@ Output
 
 
 
-
 ### H. Bottom 5 Best Sellers by Total Pizzas Sold
 ```sql
 select pizza_name,SUM(quantity) as Total_pizzas_sold 
