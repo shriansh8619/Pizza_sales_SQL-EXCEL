@@ -6,13 +6,11 @@ You can Compare Values with Excel Using these SQL Queries
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
 ```
  ![image](https://github.com/user-attachments/assets/666ec943-675f-4f1c-a554-af2004a836d5)
-
 2. Average Order Value
 ```sql
 SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales
  ```
 ![image](https://github.com/user-attachments/assets/ca18cad1-6a8b-43cd-8e94-0c94b6766217)
-
 3. Total Pizzas Sold
 ```sql
 SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales
